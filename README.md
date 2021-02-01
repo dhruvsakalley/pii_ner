@@ -6,7 +6,7 @@
 
   - taggers
 
-    - pii-ner-v0
+    - pii-ner-v1
 
       - final_model.pt : A trained flair model for ner inference.
 
