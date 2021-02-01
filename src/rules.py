@@ -43,10 +43,10 @@ class RulesEngine():
 
         # pin patterns
         self.pin_map = {
-            "Email": (lambda subtext: f"eee {subtext} mmm"),
-            "SSN": (lambda subtext: f"sss {subtext} nnn"),
-            "Phone_number": (lambda subtext: f"ppp {subtext} hhh"),
-            "CreditCardNumber": (lambda subtext: f"ccc {subtext} ccc"),
+            "Email": (lambda subtext: f"eeeee {subtext} mmmmm"),
+            "SSN": (lambda subtext: f"sssss {subtext} nnnnn"),
+            "Phone_number": (lambda subtext: f"ppppp {subtext} hhhhh"),
+            "CreditCardNumber": (lambda subtext: f"ccccc {subtext} ddddd"),
         }
 
     def pin_email(self, text):

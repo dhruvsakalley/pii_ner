@@ -1,0 +1,130 @@
+#-- Local measures --#
+True Positives:
+{
+  "Address": 100,
+  "CreditCardNumber": 20,
+  "Email": 20,
+  "Name": 100,
+  "None": 20,
+  "Phone_number": 16,
+  "Plates": 19,
+  "SSN": 20
+}
+False Positives:
+{
+  "Address": 5,
+  "CreditCardNumber": 0,
+  "Email": 0,
+  "Name": 0,
+  "None": 0,
+  "Phone_number": 0,
+  "Plates": 0,
+  "SSN": 0
+}
+False Negatives:
+{
+  "Address": 0,
+  "CreditCardNumber": 0,
+  "Email": 0,
+  "Name": 0,
+  "None": 0,
+  "Phone_number": 4,
+  "Plates": 1,
+  "SSN": 0
+}
+Precision:
+{
+  "Address": 0.9523809523809523,
+  "CreditCardNumber": 1.0,
+  "Email": 1.0,
+  "Name": 1.0,
+  "None": 1.0,
+  "Phone_number": 1.0,
+  "Plates": 1.0,
+  "SSN": 1.0
+}
+Recall:
+{
+  "Address": 1.0,
+  "CreditCardNumber": 1.0,
+  "Email": 1.0,
+  "Name": 1.0,
+  "None": 1.0,
+  "Phone_number": 0.8,
+  "Plates": 0.95,
+  "SSN": 1.0
+}
+F1-Score:
+{
+  "Address": 0.975609756097561,
+  "CreditCardNumber": 1.0,
+  "Email": 1.0,
+  "Name": 1.0,
+  "None": 1.0,
+  "Phone_number": 0.888888888888889,
+  "Plates": 0.9743589743589743,
+  "SSN": 1.0
+}
+Accuracy:
+{
+  "Address": 0.9523809523809523,
+  "CreditCardNumber": 1.0,
+  "Email": 1.0,
+  "Name": 1.0,
+  "None": 1.0,
+  "Phone_number": 0.8,
+  "Plates": 0.95,
+  "SSN": 1.0
+}
+#-- Global measures --#Micro-Averages:
+{
+  "Precision": 0.984375,
+  "Recall": 0.984375,
+  "F1-score": 0.984375
+}
+Macro-Averages:
+ {
+  "Precision": 0.9940476190476191,
+  "Recall": 0.96875,
+  "F1-Score": 0.9812357846853677
+}
+Correct predictions: 315
+Total predictions:320
+Accuracy:0.984375
+True Negatives:
+{
+  "SSN": 300,
+  "Name": 220,
+  "CreditCardNumber": 300,
+  "Address": 215,
+  "Plates": 300,
+  "Email": 300,
+  "Phone_number": 300,
+  "None": 300
+}
+Accuracy (per class), with TNs:
+{
+  "Address": 0.984375,
+  "CreditCardNumber": 1.0,
+  "Email": 1.0,
+  "Name": 1.0,
+  "None": 1.0,
+  "Phone_number": 0.9875,
+  "Plates": 0.996875,
+  "SSN": 1.0
+}
+Accuracy (per class), without TNs:
+{
+  "Address": 0.9523809523809523,
+  "CreditCardNumber": 1.0,
+  "Email": 1.0,
+  "Name": 1.0,
+  "None": 1.0,
+  "Phone_number": 0.8,
+  "Plates": 0.95,
+  "SSN": 1.0
+}
+Accuracy (global), with TNs:
+0.99609375
+Accuracy (global), without TNs:
+0.984375
