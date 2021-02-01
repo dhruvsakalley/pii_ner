@@ -21,6 +21,10 @@
   - train_ner.ipynb : notebook detailing the steps to train a flair model and sample predictions
 
   - inference.ipynb: notebook detailing the steps to perform inference on the eval data and export to excel
+  
+  - evaluate_ner.ipynb: notebook detailing the evaluation measures
+  
+  - evaluation_report.text: output from evaluate_ner.ipynb
 
   - rules.py: regex helper script
 
